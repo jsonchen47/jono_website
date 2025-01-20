@@ -34,14 +34,14 @@ const Footer = () => {
                   <Image
                     width={170}
                     height={80}
-                    src="/images/logo/jono_logo_text_light.png"
+                    src="/images/logo/jonoLogoTextLight.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={170}
                     height={80}
-                    src="/images/logo/jono_logo_text_dark.png"
+                    src="/images/logo/jonoLogoTextDark.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
