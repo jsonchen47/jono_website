@@ -13,8 +13,9 @@ const nextConfig = {
       },
     ],
   },
-  output: 'export', // Add this line for static export
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/jono_website/' : '', // Adjust paths for GitHub Pages
+  output: 'export', // Export static files
+  assetPrefix: '/jono_website/', // Use the repository name
+  basePath: '/jono_website', // Add this line for correct routing
 };
 
 module.exports = nextConfig;
