@@ -39,7 +39,7 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/jonoLogoTextDark.png"
+              src="./images/logo/jonoLogoTextDark.png"
               alt="logo"
               width={170}
               height={40}
@@ -47,7 +47,7 @@ const Header = () => {
               unoptimized
             />
             <Image
-              src="/images/logo/jonoLogoTextLight.png"
+              src="./images/logo/jonoLogoTextLight.png"
               alt="logo"
               width={170}
               height={40}
