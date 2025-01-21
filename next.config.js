@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    unoptimized: true, // Disable Image Optimization for static export
     domains: ["localhost"],
     remotePatterns: [
       {
@@ -14,8 +15,8 @@ const nextConfig = {
     ],
   },
   output: 'export', // Export static files
-  assetPrefix: '/jono_website/', // Use the repository name
-  basePath: '/jono_website', // Add this line for correct routing
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/jono_website/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/jono_website' : '',
 };
 
 module.exports = nextConfig;
