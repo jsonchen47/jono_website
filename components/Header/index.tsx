@@ -45,6 +45,7 @@ const Header = () => {
               height={40}
               className="hidden w-full dark:block"
               unoptimized
+              style={{ maxWidth: 250, height: "auto" }}
             />
             <Image
               src="./images/logo/jonoLogoTextLight.png"
@@ -53,6 +54,7 @@ const Header = () => {
               height={40}
               className="w-full dark:hidden"
               unoptimized
+              style={{ maxWidth: 250, height: "auto" }}
             />
           </a>
 
