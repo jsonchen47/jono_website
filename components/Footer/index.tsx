@@ -37,6 +37,7 @@ const Footer = () => {
                     src="/images/logo/jonoLogoTextLight.png"
                     alt="Logo"
                     className="dark:hidden"
+                    unoptimized
                   />
                   <Image
                     width={170}
@@ -44,6 +45,7 @@ const Footer = () => {
                     src="/images/logo/jonoLogoTextDark.png"
                     alt="Logo"
                     className="hidden dark:block"
+                    unoptimized
                   />
                 </a>
 

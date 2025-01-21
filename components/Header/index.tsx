@@ -44,6 +44,7 @@ const Header = () => {
               width={170}
               height={40}
               className="hidden w-full dark:block"
+              unoptimized
             />
             <Image
               src="/images/logo/jonoLogoTextLight.png"
@@ -51,6 +52,7 @@ const Header = () => {
               width={170}
               height={40}
               className="w-full dark:hidden"
+              unoptimized
             />
           </a>
 
