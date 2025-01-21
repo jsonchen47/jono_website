@@ -28,7 +28,7 @@ const Hero = () => {
                 Gain visibility for your project idea, network with others passionate about your mission, and find collaborators near you
               </p>
 
-              <div className="mt-10">
+              {/* <div className="mt-10">
                 <form onSubmit={handleSubmit}>
                   <div className="flex flex-wrap gap-5">
                     <input
@@ -50,7 +50,7 @@ const Hero = () => {
                 <p className="mt-5 text-black dark:text-white">
                   Sign up for early access!
                 </p>
-              </div>
+              </div> */}
             </div>
 
             <div className="animate_right hidden md:w-1/2 lg:block">
