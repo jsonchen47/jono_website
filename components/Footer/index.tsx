@@ -30,7 +30,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <a href="./" className="relative">
                   <Image
                     width={170}
                     height={80}
