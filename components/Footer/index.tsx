@@ -283,6 +283,11 @@ const Footer = () => {
                     Terms of Service
                   </a>
                 </li>
+                <li>
+                  <a href="deletion_instructions" className="hover:text-primary">
+                    Account Deletion
+                  </a>
+                </li>
               </ul>
             </motion.div>
 
